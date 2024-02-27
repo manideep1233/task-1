@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#top{
+    width:100%;
+    height:60%;
+    background-image: url(images/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.266)
+}
+#text{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 30%;
+    width: 100%;
+    color: #fff;
+    padding: 0 10vw;
+}
+#textright{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#textright p{
+    font-size: 17px;
+    width: 40%;
+}
+#text h1{
+    font-weight: 400;
+    font-size: 4vw;
+}
+#bottom{
+    display: flex;
+    width:100%;
+    height:40%;
+}
+#bone{
+    width: 25%;
+    height:100%;
+    padding: 30px;
+}
+#bone p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+#btwo{
+    width: 25%;
+    height:100%;
+    background-image: url(images/img-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#bthree{
+    width: 20%;
+    height:100%;
+}
+#bthreetop{
+    width: 100%;
+    height:50%;
+    padding: 20px;
+    color: white;
+    background-color: orangered;
+}
+#bthreetop p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+#bthreebottom{
+    width: 100%;
+    height:50%;
+    background-image: url(images/img--3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour{
+    width: 30%;
+    height:100%;
+    background-color: #444;
+    color: white;
+    padding: 30px;
+}
+.notf{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+.notf p{
+    width: 80%;
+    font-size: 12px;
+}
