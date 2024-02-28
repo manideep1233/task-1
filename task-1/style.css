@@ -139,6 +139,53 @@ button{
     width: 80%;
     font-size: 12px;
 }
+@media(max-width: 940px){
+    #overlay #button{
+        bottom: 40%;
+        left:-5%
+    }
+    #bottom{
+        flex-flow: row wrap;
+    }
+    #bone{
+        width: 50%;
+    }
+    #btwo{
+        width: 50%;
+    }
+    #bthree{
+        width: 50%;
+    }
+    #bfour{
+        width: 50%;
+    }
+}
+@media(max-width: 775px) {
+    #top{
+        min-height: 85vh;
+    }
+     #overlay #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #text h1{
+        font-size: 10vw;
+    }
+    #overlay #text #textright{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #overlay #text #textright p{
+        width: initial;
+        margin-top: 20px;
+    }
+    #overlay #text #textright #icon{
+        margin-top: 30px;
+    }
+    #overlay #button{
+        bottom: 27%;
+    }
+}
 
 @media(max-width: 500px) {
     #top{
